@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NavBar, Barra de Navegación, Responsive design, Diseño Adaptativo">
+
+    <!-- Link a mi archivo CSS y el NORMALIZE -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Grandstander:wght@500&family=Montserrat:wght@300&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+    
+    <!-- ICONOS DE FONT AWESOME-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <title>NavBar Responsive</title>
+</head>
+<body>
+    <header>
+        <!-- TAMAÑO DE PANTALLA MOVIL -->
+        <nav class="contenedor-responsivo">
+                <ul class="contenedor-responsivo__ul">
+                    <li class="contenedor-responsivo__li">
+                        <a href="#">Home</a> 
+                    </li>
+                    <li class="contenedor-responsivo__li">
+                       <a href="#">About Us</a> 
+                    </li>
+                    <li class="contenedor-responsivo__li">
+                        <a href="#">Favorites</a> 
+                    </li>
+                    <li class="contenedor-responsivo__li">
+                        <a href="#">Cart</a> 
+                    </li>
+                    <li class="contenedor-responsivo__li">
+                        <a href="#">Notifications</a> 
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- TAMAÑO DE PANTALLA MEDIO -->
+        <nav class = "contenedor-medium">
+            <div class="input">
+                <input type="text" placeholder="Ingrese su búsqueda" >
+            </div>
+            <ul class="contenedor-medium__ul">
+                <li class="contenedor-medium__li">
+                    <a href=#>Home</a> 
+                </li>
+                <li class="contenedor-medium__li">
+                   <a href="#">About Us</a> 
+                </li>
+                <li class="contenedor-medium__li">
+                    <a href="#">
+                        Favorites
+                    </a> 
+                </li>
+                <li class="contenedor-medium__li">
+                    <a href="#">
+                        Cart
+                    </a> 
+                </li>
+                <li class="contenedor-medium__li">
+                    <a href="#">
+                        Notifications
+                    </a> 
+                </li>
+            </ul>
+        </nav>
+
+        <!-- TAMAÑO DE PANTALLA ESCRITORIO -->
+        <nav class = "contenedor-max">
+            <ul class="contenedor-max__ul">
+                <li class="contenedor-max__li">
+                    <a href=#>Home</a> 
+                </li>
+                <li class="contenedor-max__li">
+                   <a href="#">About Us</a> 
+                </li>
+            </ul>
+            <input type="text" placeholder="Ingrese su búsqueda" >
+            <ul class="contenedor-max__ul-iconos">
+                <li class="contenedor-max__li-iconos">
+                    <a href="#">
+                        <i class="fas fa-heart"></i>
+                    </a> 
+                </li>
+                <li class="contenedor-max__li-iconos">
+                    <a href="#">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a> 
+                </li>
+                <li class="contenedor-max__li-iconos">
+                    <a href="#">
+                        <i class="fas fa-bell"></i>
+                    </a> 
+                </li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
