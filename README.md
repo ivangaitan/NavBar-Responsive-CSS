@@ -4,10 +4,10 @@ The Code is free for use and modificate.
 Made with pure CSS and Love
 
 ## Wide Screen
-![wideScreen](wideScreen.png)
+![wideScreen](wideScreen.PNG)
 
 ## Tablet Screen
-![TabletScreen](tabletScreen.png)
+![TabletScreen](tabletScreen.PNG)
 
 ## Mobile Screen
-![MobileScreen](mobileScreen.png)
+![MobileScreen](mobileScreen.PNG)
