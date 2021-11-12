@@ -7,7 +7,7 @@ Made with pure CSS and Love
 ![wideScreen](wideScreen.png)
 
 ## Tablet Screen
-![wideScreen](tabletScreen.png)
+![TabletScreen](tabletScreen.png)
 
 ## Mobile Screen
-![wideScreen](mobileScreen.png)
+![MobileScreen](mobileScreen.png)
